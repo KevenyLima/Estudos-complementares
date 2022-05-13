@@ -6,7 +6,9 @@
   },
   "scripts": {
     "dev":"tsc -p .",
-    "start": "ts-node-dev  --cache-directory --respawn --transpile-only ./Decorators/decorators.ts",
+    "regex":"node ./Regex",
+    "generics":"ts-node-dev --respawn --transpile-only ./Generics/generics",
+    "decorators": "ts-node-dev --respawn --transpile-only ./Decorators/decorators.ts",
     "build": "tsc --build --clean && tsc"
   },
   "dependencies": {

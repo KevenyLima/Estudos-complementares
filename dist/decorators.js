@@ -282,6 +282,6 @@ __decorate([
 ], Admin.prototype, "username", void 0);
 let pedro = new Admin("pedroadmin12345");
 let lee = new Admin("lee");
-console.log("pedro", pedro);
+// console.log("pedro", pedro)
 console.log("lee", lee);
 //# sourceMappingURL=decorators.js.map
